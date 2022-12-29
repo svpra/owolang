@@ -24,10 +24,10 @@ void Lexer::Next() {
     while (isalnum((last_char_ = GetChar())))
       token_value_ += last_char_;
 
-    if (token_value_ == "def")
-      token_type_ = tok_def;
-    else if (token_value_ == "extern")
-      token_type_ = tok_extern;
+    if (token_value_ == "owo")
+      token_type_ = tok_owo;
+    else if (token_value_ == "meow")
+      token_type_ = tok_meow;
     else
       token_type_ = tok_identifier;
     return;
