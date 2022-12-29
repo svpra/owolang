@@ -1,5 +1,5 @@
-#ifndef KALEIDOSCOPE_LEXER_H
-#define KALEIDOSCOPE_LEXER_H
+#ifndef OWOLANG_LEXER_H
+#define OWOLANG_LEXER_H
 
 #include <exception>
 #include <iostream>
@@ -66,4 +66,4 @@ public:
   Token GetTokenType();
 };
 
-#endif // KALEIDOSCOPE_LEXER_H
+#endif // OWOLANG_LEXER_H
